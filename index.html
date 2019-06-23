@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+ 
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+	  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="script.js"></script>
+
+  </head>
+ 
+  <body>
+	<section class="intro">
+  	<div class="inner"></div>
+  	<div class="content">
+        <h1>Weather for </h1>
+    	<form>
+      	<input type='text' id='grad_value'>
+      	<input type='submit' id='send' value="Find">
+    	</form>
+  	</div>
+	</section>
+	<section class="main">
+  	<div id="currentWeather">
+    	<div id="mainInfo">
+      	<span id="currentDate"></span>
+      	<h2 id="grad"> </h2>
+      	<h3 id='temperatura'></h3>
+      	<h3 id='weather'></h3>
+ 	     <img src="" id="ikon">
+    	</div>
+    	<div id="plusInfo">
+      	<form id="druga"> <input type='text' id='grad_value1'>
+        	<input type='submit' id='send1' value="Find"> </form><br><br>
+      	<p id="pressure" class="data1">Pressure: </p>
+      	<p id="humidity" class="data1">Humidity: </p>
+      	<p id="minTemp" class="data1">Min temperature: </p>
+      	<p id="maxTemp" class="data1">Max temperature: </p>
+      	<p id="windSpeed" class="data1">Wind Speed: </p>
+      	<p id="windDirection" class="data1">Wind Direction: </p>
+      	<input type="submit" id="gumb" value="See next 5 days">
+    	</div>
+  	</div>
+	</section>
+	<section class="forecast">
+  	<div id="nextFiveDays"></div>
+  	<div id="forecastWeather">
+  	</div>
+	</section>
+	<section class="footer">Copyright © 2019 Neira Durmić</section>
+	<a href="#" id="scroll" style="display: none;"><span></span></a>
+  </body>
+ 
+</html>

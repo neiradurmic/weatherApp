@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css?family=Krub");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+ 
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: no-repeat;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+ 
+h1 {
+  font-family: "Krub";
+  color: #fff;
+  font-size: 400%;
+}
+ 
+#send {
+  font-family: "Oswald", sans-serif;
+  border: solid 3px #fff;
+  border-radius: 9px;
+  color: #fffF;
+  font-size: 125%;
+  background-color: Transparent;
+  padding: 7px 20px;
+  text-transform: uppercase;
+}
+ 
+#send:hover {
+  color: #9CC8C7;
+  border: solid 3px #9CC8C7;
+}
+ 
+#grad_value {
+  font-family: "Oswald", sans-serif;
+  font-size: 125%;
+  padding: 7px 20px;
+  border-color: #fff;
+  border-radius: 9px;
+  border-style: solid;
+}
+ 
+form {
+  text-align: center;
+}
+ 
+.main {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: #fff;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+ 
+#currentDate {
+  font-family: "Krub";
+  font-size: 180%;
+  background-color: #7DE6ED;
+}
+ 
+#currentWeather {
+  border-radius: 10px;
+  border-color: blue;
+  box-shadow: 1px 1px 5px blue;
+  padding: 50px;
+  padding-top: 30px;
+  margin-left: 50px;
+  margin-right: 10px;
+  width: 75%;
+}
+ 
+#mainInfo {
+  float: left;
+  width: 60%;
+}
+ 
+#plusInfo {
+  float: right;
+  width: 40%;
+}
+ 
+#temperatura {
+  font-family: "Oswald";
+  font-size: 280%;
+  margin-left: 82px;
+}
+ 
+#weather {
+  font-family: "Krub";
+  font-size: 150%;
+  margin-left: 82px;
+}
+ 
+#ikon {
+  margin-left: 82px;
+  width: 12%;
+  height: 12%;
+}
+ 
+.data1 {
+  font-family: "Oswald";
+  font-size: 120%;
+}
+ 
+#send1 {
+  font-family: "Oswald", sans-serif;
+  border: solid 3px #fff;
+  border-radius: 9px;
+  color: black;
+  font-size: 102%;
+  background-color: #7DE6ED;
+  text-transform: uppercase;
+  padding: 7px 20px;
+}
+ 
+#send1:hover {
+  color: #fff;
+  border: solid 3px #fff;
+}
+ 
+#grad_value1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 92%;
+  padding: 7px 20px;
+  border-color: #7DE6ED;
+  border-radius: 9px;
+  border-style: solid;
+}
+ 
+#druga {
+  float: right;
+}
+ 
+#grad {
+  font-family: "Oswald";
+  font-size: 200%;
+  margin-left: 82px;
+  color: black;
+}
+ 
+#gumb {
+  font-family: "Oswald", sans-serif;
+  border: solid 3px #fff;
+  border-radius: 9px;
+  color: black;
+  font-size: 102%;
+  width: 100%;
+  background-color: #7DE6ED;
+  text-transform: uppercase;
+  padding: 7px 20px;
+}
+ 
+#gumb:hover {
+  color: #fff;
+  border: solid 3px #fff;
+}
+ 
+.forecast {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: #fff;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+ 
+#forecastWeather {
+  font-family: "Krub";
+  background-color: rgba(125, 230, 237, 0.4);
+  width=90%;
+  border-radius: 9px;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+ 
+#forecastWeather thead {
+  font-family: "Oswald";
+  background-color: rgba(125, 230, 237, 0.5);
+  border-top-left-radius: 9px;
+}
+ 
+#forecastWeather td {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 10%;
+  height: 30px;
+  ;
+  border: solid white 0.1px;
+  text-align: center;
+}
+ 
+.footer {
+  bottom: 0;
+  height: 30%;
+  width: 100%;
+  margin: auto;
+  background: #202020;
+  font-family: "Krub";
+  color: #fff;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+ 
+#scroll {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #7DE6ED;
+  text-indent: -9999px;
+  display: none;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px
+}
+ 
+#scroll span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #ffffff;
+}
+ 
+#scroll:hover {
+  background-color: black;
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)";
+}
+ 
+#nextFiveDays {
+  text-decoration: underline #7DE6ED;
+  margin-top: 30px;
+  font-family: "Krub";
+  font-size: 250%;
+  background-color: #fff;
+}
